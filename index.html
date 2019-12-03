@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slot Machine</title>
+</head>
+<body>
+    <div class="wrap">
+        <h1>One-armed Bandit</h1>
+        <section class="game">
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+        </section>
+        <section class="play">
+            <input type="number" placeholder="enter the cash bet" id="bid">
+        </section>
+        <button id="start">spin</button>
+        <section class="panel">your balance before next game:
+            <span class="wallet"></span>
+        </section>
+        <section class="score">
+            you lost
+            <span class="result">1</span>
+            you have
+            <span class="number">0</span>
+            games behind you,
+            including
+            <span class="win">0</span>
+            wins and
+            <span class="loss">0</span>
+            losers
+        </section>
+    </div>
+    <script src="dist/out.bundle.js"></script>
+</body>
+</html>
